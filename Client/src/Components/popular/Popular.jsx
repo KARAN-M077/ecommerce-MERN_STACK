@@ -7,7 +7,7 @@ import axios from 'axios';
 const Popular = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    axios.get('https://ecommerce-9243.onrender.com/relatedproduct')
+    axios.get('https://ecommerce-mern-stack-okqn.onrender.com/relatedproduct')
       .then(res => {
         console.log('Response:', res); // Log the entire response object
         if (Array.isArray(res.data)) {

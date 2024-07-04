@@ -9,7 +9,7 @@ const Displayproduct = (props) => {
 
   const handleAddToCart = async () => {
     try {
-      const response = await axios.post('https://ecommerce-9243.onrender.com/addtocart', {
+      const response = await axios.post('https://ecommerce-mern-stack-okqn.onrender.com/addtocart', {
         _id: product._id,
         name: product.name,
         image: product.image

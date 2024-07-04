@@ -9,7 +9,7 @@ export const ShopContext = createContext(null);
 const ShopContextProvider = (props) => {
     const [products, setProducts] = useState([]);
   useEffect(() => {
-    axios.get('https://ecommerce-9243.onrender.com/allproducts')
+    axios.get('https://ecommerce-mern-stack-okqn.onrender.com/allproducts')
       .then(res => {
         console.log('Response:', res); // Log the entire response object
         if (Array.isArray(res.data)) {

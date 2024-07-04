@@ -10,7 +10,7 @@ const Cart = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('https://ecommerce-9243.onrender.com/cartitems')
+    axios.get('https://ecommerce-mern-stack-okqn.onrender.com/cartitems')
       .then(res => {
         console.log('Response:', res); // Log the entire response object
         if (Array.isArray(res.data)) {
@@ -24,7 +24,7 @@ const Cart = () => {
       });
   }, []);
   const updateQuantityInDB = (productId, newQuantity) => {
-    return axios.post('https://ecommerce-9243.onrender.com/updatecart', { productId, quantity: newQuantity });
+    return axios.post('https://ecommerce-mern-stack-okqn.onrender.com/updatecart', { productId, quantity: newQuantity });
   };
   const incrementQuantity = (index) => {
     const newProducts = [...products];

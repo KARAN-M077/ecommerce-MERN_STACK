@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const fetchCartItems = async () => {
     try {
-      const response = await axios.get('https://ecommerce-9243.onrender.com/cartitems');
+      const response = await axios.get('https://ecommerce-mern-stack-okqn.onrender.com/cartitems');
       if (Array.isArray(response.data)) {
         setCartCount(response.data.length);
       } else {

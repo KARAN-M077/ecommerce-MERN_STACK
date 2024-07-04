@@ -8,7 +8,7 @@ const Newcollection = () => {
   const [collection, setCollection] = useState([]);
   
   useEffect(() => {
-    axios.get('https://ecommerce-9243.onrender.com/newcollection')
+    axios.get('https://ecommerce-mern-stack-okqn.onrender.com/newcollection')
       .then(res => {
         console.log('Response:', res); // Log the entire response object
         if (Array.isArray(res.data)) {
