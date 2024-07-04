@@ -1,0 +1,75 @@
+.slide-container {
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 5%;
+    z-index: -5;
+    margin-top: 6%;
+    border:none;
+    
+  }
+  
+  .each-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+    background:transparent;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    border: none;
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+
+  }
+  
+  .react-slideshow-container + div {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .react-slideshow-container + div button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    z-index: -5;
+    cursor: pointer;
+  }
+  
+  .react-slideshow-container + div button:focus {
+    outline: none;
+  }
+  @media (min-width:250px) and (max-width: 432px)
+  {
+    .slide-container
+    {
+        margin-top: 17%;
+        margin-bottom: 12%;
+    }
+    .each-slide
+    {
+        height: 300px;
+    }
+  }
+  @media (min-width:433px) and (max-width: 632px)
+  {
+    .slide-container
+    {
+        margin-top: 17%;
+        margin-bottom: 12%;
+    }
+    .each-slide
+    {
+        height: 400px;
+    }
+  }

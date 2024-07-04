@@ -1,0 +1,53 @@
+.item
+{
+    height: auto;
+    width: 20%;
+    outline:1px solid rgb(227, 227, 227);
+    padding: 10px 10px;
+}
+.item img{
+ max-width: 100%;
+}
+.item p{
+    margin: 6px 0px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-price
+{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new
+{
+    color:black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.item-price-old
+{
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: line-through;  
+}
+
+.item:hover
+{
+    transform: scale(1.1);
+    transition: 0.10s;
+}
+
+@media screen and (max-width: 432px)
+{
+    .item p
+    {
+        width: 200px;
+    }
+    .item
+    {
+        width: 60%;
+        
+    }
+}

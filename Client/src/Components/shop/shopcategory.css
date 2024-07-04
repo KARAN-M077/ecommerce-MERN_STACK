@@ -1,0 +1,11 @@
+.shopcategory
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+   margin: 30px;
+   justify-content: center;
+   
+    
+}

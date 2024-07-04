@@ -1,0 +1,129 @@
+.cartproduct
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+
+}
+.cartproduct-item{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.cartproduct-item img{
+    width: 150px;
+    height: 150px;
+}
+.product-details
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:30%;
+    background-color: white;
+    border: solid 2px rgb(171, 168, 168);
+    padding: 20px;
+    border-radius: 20px;
+}
+.inside-product-details
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 7%;
+}
+
+.quantity-controls
+{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+.add
+{
+    background-color: green;
+    color: black;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 2px;
+    font-size: large;
+    transition: 0.2s ease-in-out;
+}
+.sub
+{
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 5px 15px;  
+    border-radius: 2px;
+    font-size: large;
+    transition: 0.2s ease-in-out; 
+}
+.place-order-button
+{
+    background-color: rgb(110, 110, 255);
+    border: none;
+    border-radius: 2px;
+    transition: 0.2s ease-in-out; 
+    color: white;
+    font-weight: 700;
+
+}
+.add:hover,.sub:hover,.place-order-button:hover{
+    transform: scale(1.1);
+}
+.cartproduct h1{
+    text-align: center;
+    margin-top: 2%;
+}
+@media (min-width:250px) and (max-width: 432px)
+{
+    .product-details
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+       
+    }
+    .cartproduct-item img
+    {
+        object-fit: cover;
+    }
+}
+@media (min-width:433px) and (max-width: 632px)
+{
+    .product-details
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+}
+@media (min-width:633px) and (max-width: 733px)
+{
+    .product-details
+    {
+        width: 70%;
+    }
+}
+@media (min-width:734px) and (max-width: 834px)
+{
+    .product-details
+    {
+        width: 70%;
+    }
+}
+@media (min-width:834px) and (max-width: 934px)
+{
+    .product-details
+    {
+        width: 50%;
+    }
+}
