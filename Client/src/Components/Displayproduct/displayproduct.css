@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: center; */
     margin: 50px 170px;
+    margin-top: 10%;
 }
 .product-left
 {
@@ -90,6 +91,7 @@
     {
         width: 90%;
         margin: 50px 20px;
+        margin-top:25% ;
     }
     .product-img
     {
@@ -122,6 +124,10 @@
         width: 100%;
         flex-direction: row;
         overflow: scroll;
+    }
+    .product-description
+    {
+        margin-top: 5%;
     }
 
 }
