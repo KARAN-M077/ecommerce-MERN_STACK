@@ -1,4 +1,4 @@
-# KEC VEHICLE MANAGEMENT SYSTEM 🚌
+# E-COMMERCE SITE (Shoptical) 🚌
 
 This application was developed in MERN Stack training program conducted by Better Tomorrow company in Kongu Engineering College` 
 
@@ -21,7 +21,6 @@ This application was developed in MERN Stack training program conducted by Bette
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
