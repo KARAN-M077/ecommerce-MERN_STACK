@@ -11,7 +11,7 @@ const ShopContextProvider = (props) => {
   useEffect(() => {
     axios.get('https://ecommerce-mern-stack-okqn.onrender.com/allproducts')
       .then(res => {
-        console.log('Response:', res); // Log the entire response object
+        console.log('Response:', res); 
         if (Array.isArray(res.data)) {
           setProducts(res.data);
         } else {

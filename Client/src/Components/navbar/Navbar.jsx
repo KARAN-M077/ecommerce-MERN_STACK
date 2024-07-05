@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className='navbar'>
         <div className='nav-logo'>
           <img src={newlogo} alt='logo.png' />
-          <p>PrimePicks</p>
+          <p>Shoptical</p>
         </div>
         <div className='nav-menu-icon' onClick={handleMenuClick}>
           &#9776;
